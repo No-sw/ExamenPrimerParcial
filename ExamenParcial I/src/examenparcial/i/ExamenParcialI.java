@@ -17,6 +17,10 @@ public class ExamenParcialI {
         Scanner entrada = new Scanner(System.in);
         int calificacion;
         String contenido;
-        int capitulo;
+        
+        System.out.print("Ingrese su calificacion: ");
+        calificacion = entrada.nextInt();
+        
+        Pelicula nuevoStreaming = new Pelicula(calificacion);
     }   
 }
